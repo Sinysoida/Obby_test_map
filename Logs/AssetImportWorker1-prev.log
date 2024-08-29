@@ -1,0 +1,1551 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.22f1 (b6c551784ba3) revision 11978065'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ru' Physical Memory: 32692 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+F:\unity\2021.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+F:/unity/test2
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+43061
+Successfully changed project path to: F:/unity/test2
+F:/unity/test2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19264] Host "[IP] 192.168.31.173 [Port] 0 [Flags] 2 [Guid] 1487886452 [EditorId] 1487886452 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-H8S4TEK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [19264] Host "[IP] 192.168.31.173 [Port] 0 [Flags] 2 [Guid] 1487886452 [EditorId] 1487886452 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-H8S4TEK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 144.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.22f1 (b6c551784ba3)
+[Subsystems] Discovering subsystems at path F:/unity/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/unity/test2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 (ID=0x1e87)
+    Vendor:   NVIDIA
+    VRAM:     7987 MB
+    Driver:   32.0.15.6070
+Initialize mono
+Mono path[0] = 'F:/unity/2021.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'F:/unity/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'F:/unity/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56512
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: F:/unity/2021.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: F:/unity/2021.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: F:/unity/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003444 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 670 ms
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 138.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.384 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1385ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1198ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (114ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (1008ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (744ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (138ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (84ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.011174 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\unity\test2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\unity\test2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 145.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  1.437 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1438ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (1203ms)
+			LoadAssemblies (127ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (328ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (635ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (145ms)
+				BeforeProcessingInitializeOnLoad (123ms)
+				ProcessInitializeOnLoadAttributes (274ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5406 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (0.8 MB). Loaded Objects now: 6008.
+Memory consumption went from 268.6 MB to 267.8 MB.
+Total: 5.620700 ms (FindLiveObjects: 0.608300 ms CreateObjectMapping: 0.503200 ms MarkObjects: 3.853100 ms  DeleteObjects: 0.654900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1095810.525700 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(cd586e8f1c0389d49b9231b87034bed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(cd586e8f1c0389d49b9231b87034bed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree tree02 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree tree01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree tree03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree tree04 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Dry6524 couldn't be instanced because the prefab contains no valid mesh renderer.
+ -> (artifact id: '2c7c2f5292ac5c6ff2ed8c1ed0f4678d') in 0.203167 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008370 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\unity\test2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\unity\test2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.173 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1173ms)
+		BeginReloadAssembly (165ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (915ms)
+			LoadAssemblies (126ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (315ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (395ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (208ms)
+				ProcessInitializeOnLoadMethodAttributes (81ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5077 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 146 unused Assets / (431.5 KB). Loaded Objects now: 5894.
+Memory consumption went from 240.7 MB to 240.3 MB.
+Total: 4.325700 ms (FindLiveObjects: 0.396800 ms CreateObjectMapping: 0.348900 ms MarkObjects: 3.273300 ms  DeleteObjects: 0.305900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 264.178685 seconds.
+  path: Assets/Low Poly Soviet Car Pack/Prefabs/gz21/gz21_ green.prefab
+  artifactKey: Guid(6786d61d19e0d1a46a6e2c710fd480b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Soviet Car Pack/Prefabs/gz21/gz21_ green.prefab using Guid(6786d61d19e0d1a46a6e2c710fd480b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '638e34194b64ad68e37af2d0f27111bf') in 0.330241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Low Poly Soviet Car Pack/Prefabs/gz21/gz21_ white.prefab
+  artifactKey: Guid(6e6d2eddd93e518429db6bc3d8b567ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Soviet Car Pack/Prefabs/gz21/gz21_ white.prefab using Guid(6e6d2eddd93e518429db6bc3d8b567ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e49ff43176cfebe9036b74491d22688c') in 0.027046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Low Poly Soviet Car Pack/Prefabs/gz21/gz21_ sand.prefab
+  artifactKey: Guid(7bf8638760975074a99bcce60947f410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Soviet Car Pack/Prefabs/gz21/gz21_ sand.prefab using Guid(7bf8638760975074a99bcce60947f410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c5f99a8f2fba99617e5e12f318214e') in 0.029287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Low Poly Soviet Car Pack/Prefabs/gz21/gz21_ lightblue.prefab
+  artifactKey: Guid(3c2ae027d5a4b3543b8bc87c334282da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Soviet Car Pack/Prefabs/gz21/gz21_ lightblue.prefab using Guid(3c2ae027d5a4b3543b8bc87c334282da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f1ed3855002af4162056425092068e3') in 0.034265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Low Poly Soviet Car Pack/Prefabs/gz21/gz21_ red.prefab
+  artifactKey: Guid(649b11d5b9749054f8c98071eb8b7092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Soviet Car Pack/Prefabs/gz21/gz21_ red.prefab using Guid(649b11d5b9749054f8c98071eb8b7092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aabdbb42d2dc6991725fc095bc10f700') in 0.020425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.202163 seconds.
+  path: Assets/Low Poly Soviet Car Pack/Prefabs/gz24/gz24_blue.prefab
+  artifactKey: Guid(af4908a7f31088a4b96ec75ef4f1b61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Soviet Car Pack/Prefabs/gz24/gz24_blue.prefab using Guid(af4908a7f31088a4b96ec75ef4f1b61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecaeb6cdb65941d62db0f6fc9146d8db') in 0.014380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Low Poly Soviet Car Pack/Prefabs/gz24/gz24_green.prefab
+  artifactKey: Guid(63031d01e5ad3164a860757caa90da85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Soviet Car Pack/Prefabs/gz24/gz24_green.prefab using Guid(63031d01e5ad3164a860757caa90da85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f7d76570592441d9de2fff47f22c223') in 0.020145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Low Poly Soviet Car Pack/Prefabs/gz24/gz24_puple.prefab
+  artifactKey: Guid(f75711e1584601b4da7bc374b2b12165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Soviet Car Pack/Prefabs/gz24/gz24_puple.prefab using Guid(f75711e1584601b4da7bc374b2b12165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4360acbb204e05fc9d68d6b5224ffa30') in 0.018878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Low Poly Soviet Car Pack/Prefabs/gz24/gz24_lightblue.prefab
+  artifactKey: Guid(5fe2d0c555ffed74cb794c4de5eea923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Soviet Car Pack/Prefabs/gz24/gz24_lightblue.prefab using Guid(5fe2d0c555ffed74cb794c4de5eea923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1908cfe7840c2c470ca18e69ad12668c') in 0.019572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Low Poly Soviet Car Pack/Prefabs/gz24/gz24_yellow.prefab
+  artifactKey: Guid(e4f692da1b272f04eac6261a030dfec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Soviet Car Pack/Prefabs/gz24/gz24_yellow.prefab using Guid(e4f692da1b272f04eac6261a030dfec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e610e8ba01178f9bb7ab5799a41ed16') in 0.014920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.502375 seconds.
+  path: Assets/Low Poly Soviet Car Pack/Prefabs/vz01/vz01_ gray.prefab
+  artifactKey: Guid(38bffec2b52c8d549b57b30403127884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Soviet Car Pack/Prefabs/vz01/vz01_ gray.prefab using Guid(38bffec2b52c8d549b57b30403127884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e96f9a74b0013112ec2d014c6ef0edd4') in 0.017479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Low Poly Soviet Car Pack/Prefabs/vz01/vz01_black.prefab
+  artifactKey: Guid(0dd9d711c05f33949b639c91ebb8b169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Soviet Car Pack/Prefabs/vz01/vz01_black.prefab using Guid(0dd9d711c05f33949b639c91ebb8b169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb57bd34027ddfa85dcff9e301e0dac0') in 0.025325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Low Poly Soviet Car Pack/Prefabs/vz01/vz01_ purple.prefab
+  artifactKey: Guid(dba28c1c947b1b7428e1edb23430b88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Soviet Car Pack/Prefabs/vz01/vz01_ purple.prefab using Guid(dba28c1c947b1b7428e1edb23430b88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a0825431e094a05578a732db8e22ba0') in 0.019343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Low Poly Soviet Car Pack/Prefabs/vz01/vz01_ red.prefab
+  artifactKey: Guid(4f6e29e296dfee84b991c56a804e7262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Soviet Car Pack/Prefabs/vz01/vz01_ red.prefab using Guid(4f6e29e296dfee84b991c56a804e7262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb1721e1bdf345dd2756fc1cb133c86') in 0.093119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.386804 seconds.
+  path: Assets/Low Poly Soviet Car Pack/Prefabs/vz02/vz02_ green.prefab
+  artifactKey: Guid(b2f783f0bf9936a43ab99739f5c6aabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Soviet Car Pack/Prefabs/vz02/vz02_ green.prefab using Guid(b2f783f0bf9936a43ab99739f5c6aabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc791e39eccfb7ccc9ee8dc4235a3c2') in 0.018086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Low Poly Soviet Car Pack/Prefabs/vz02/vz02_ yellow.prefab
+  artifactKey: Guid(04d9f24d35854ba4ea5de5c673d4456e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Soviet Car Pack/Prefabs/vz02/vz02_ yellow.prefab using Guid(04d9f24d35854ba4ea5de5c673d4456e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a2d34bffaa26c893eba73ef03c0461') in 0.014456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Low Poly Soviet Car Pack/Prefabs/vz02/vz02_ purple.prefab
+  artifactKey: Guid(b957da1886efb7d40b44318e579c839d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Soviet Car Pack/Prefabs/vz02/vz02_ purple.prefab using Guid(b957da1886efb7d40b44318e579c839d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '176afdc9fee8042299727a0174c725e8') in 0.014076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Low Poly Soviet Car Pack/Prefabs/vz02/vz02_black.prefab
+  artifactKey: Guid(da9f0a502fc11c54fb721aa61bcf0d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Soviet Car Pack/Prefabs/vz02/vz02_black.prefab using Guid(da9f0a502fc11c54fb721aa61bcf0d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a71bf28e20f865d8a9c8972ad656655e') in 0.014435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.678152 seconds.
+  path: Assets/Low Poly Soviet Car Pack/Prefabs/vz03/vz03_ green.prefab
+  artifactKey: Guid(8ed89115fdc6c4844b5974fb3c432c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Soviet Car Pack/Prefabs/vz03/vz03_ green.prefab using Guid(8ed89115fdc6c4844b5974fb3c432c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aecefa9e6de01a113db88cd83db6f3f') in 0.018193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Low Poly Soviet Car Pack/Prefabs/vz03/vz03_ lightblue.prefab
+  artifactKey: Guid(caa2c2c3ab3256b46a7d225942dc1a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Soviet Car Pack/Prefabs/vz03/vz03_ lightblue.prefab using Guid(caa2c2c3ab3256b46a7d225942dc1a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '697a0d7fd2fb18af000eb2a3058104f9') in 0.015735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Low Poly Soviet Car Pack/Prefabs/vz03/vz03_ yellow.prefab
+  artifactKey: Guid(cec24f51b00e5c9429c80ba8cf7dceb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Soviet Car Pack/Prefabs/vz03/vz03_ yellow.prefab using Guid(cec24f51b00e5c9429c80ba8cf7dceb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d386ceafd49b272c606943d33cd7678') in 0.014672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.577810 seconds.
+  path: Assets/Low Poly Soviet Car Pack/Prefabs/vz04/vz04_ green.prefab
+  artifactKey: Guid(ae60b9eb921d55f478c894f056cdc749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Soviet Car Pack/Prefabs/vz04/vz04_ green.prefab using Guid(ae60b9eb921d55f478c894f056cdc749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c181edcbc5328303114a514ebafb7366') in 0.026472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Low Poly Soviet Car Pack/Prefabs/vz04/vz04_ sand.prefab
+  artifactKey: Guid(bbd7b5506ffd1d545bb00a84036abc67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Soviet Car Pack/Prefabs/vz04/vz04_ sand.prefab using Guid(bbd7b5506ffd1d545bb00a84036abc67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60fc5b67afc20d6cd92595d0f344d53f') in 0.014917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Low Poly Soviet Car Pack/Prefabs/vz04/vz04_black.prefab
+  artifactKey: Guid(8e1a1862a983c7f46a2cd9bed552e564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Soviet Car Pack/Prefabs/vz04/vz04_black.prefab using Guid(8e1a1862a983c7f46a2cd9bed552e564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a622fdd28c99d75038b853f12e7bae') in 0.036486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.127311 seconds.
+  path: Assets/Low Poly Soviet Car Pack/Prefabs/vz05/vz05_ green.prefab
+  artifactKey: Guid(99ec8b67ff7c2e94792441f3a28a24f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Soviet Car Pack/Prefabs/vz05/vz05_ green.prefab using Guid(99ec8b67ff7c2e94792441f3a28a24f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6203cad9452860b301a3b8c824f253de') in 0.018144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Low Poly Soviet Car Pack/Prefabs/vz05/vz05_ white.prefab
+  artifactKey: Guid(dea8dd1cda91a7c45bf518a9b4250511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Soviet Car Pack/Prefabs/vz05/vz05_ white.prefab using Guid(dea8dd1cda91a7c45bf518a9b4250511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee6d22bea1da68310280e65f5a5847e4') in 0.014590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Low Poly Soviet Car Pack/Prefabs/vz05/vz05_ red.prefab
+  artifactKey: Guid(d7c073adee5895e42938827ed0db7b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Soviet Car Pack/Prefabs/vz05/vz05_ red.prefab using Guid(d7c073adee5895e42938827ed0db7b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b8d5502068cf6ff6084720705ed0768') in 0.016063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.815630 seconds.
+  path: Assets/Low Poly Soviet Car Pack/Prefabs/vz06/vz06_ green.prefab
+  artifactKey: Guid(a58c72bccd0e4d34096c783ccdfb1c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Soviet Car Pack/Prefabs/vz06/vz06_ green.prefab using Guid(a58c72bccd0e4d34096c783ccdfb1c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d620de36f92893eb53a83f1a973a22') in 0.016915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Low Poly Soviet Car Pack/Prefabs/vz06/vz06_ red.prefab
+  artifactKey: Guid(518b92ad58aaf4f41b8bbd80d52dd7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Soviet Car Pack/Prefabs/vz06/vz06_ red.prefab using Guid(518b92ad58aaf4f41b8bbd80d52dd7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d516e6c51fda19746afcfd9fff18baf') in 0.014880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Low Poly Soviet Car Pack/Prefabs/vz06/vz06_ yellow.prefab
+  artifactKey: Guid(ddc5da42802acc6418d520ceb517d449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Soviet Car Pack/Prefabs/vz06/vz06_ yellow.prefab using Guid(ddc5da42802acc6418d520ceb517d449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe8ef788b045172e240005dcf427eab') in 0.016858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.678420 seconds.
+  path: Assets/Low Poly Soviet Car Pack/Prefabs/vz07/vz07_ green.prefab
+  artifactKey: Guid(702021bafca0716459a7eaa98c5fbbc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Soviet Car Pack/Prefabs/vz07/vz07_ green.prefab using Guid(702021bafca0716459a7eaa98c5fbbc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece30d4c6f72cbeb4a97be6c353560ba') in 0.030548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Low Poly Soviet Car Pack/Prefabs/vz07/vz07_ lightblue.prefab
+  artifactKey: Guid(5fcd0fcb7052ff248a0c9a2ba273a03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Soviet Car Pack/Prefabs/vz07/vz07_ lightblue.prefab using Guid(5fcd0fcb7052ff248a0c9a2ba273a03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c7f7a022095484ac2b42b181779997') in 0.022928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Low Poly Soviet Car Pack/Prefabs/vz07/vz07_ yellow.prefab
+  artifactKey: Guid(757fdd43a238d5648accdd2c1e64a6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Soviet Car Pack/Prefabs/vz07/vz07_ yellow.prefab using Guid(757fdd43a238d5648accdd2c1e64a6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a12c2fae60152d90cd0c877ab8dfae3d') in 0.021592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Low Poly Soviet Car Pack/Prefabs/vz07/vz07_ red.prefab
+  artifactKey: Guid(a155c7e77d6aab1498efd5819f75f6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Soviet Car Pack/Prefabs/vz07/vz07_ red.prefab using Guid(a155c7e77d6aab1498efd5819f75f6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ecc6dd4e145b1b5e13fa9aace943c9') in 0.016246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.792255 seconds.
+  path: Assets/Low Poly Soviet Car Pack/Prefabs/vz08/vz08_ green.prefab
+  artifactKey: Guid(25f4b1af4d9709e47b241000262cb6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Soviet Car Pack/Prefabs/vz08/vz08_ green.prefab using Guid(25f4b1af4d9709e47b241000262cb6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fccf12e4c72bb21f8aed7e47b3b51e2') in 0.013028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Low Poly Soviet Car Pack/Prefabs/vz08/vz08_ lightblue.prefab
+  artifactKey: Guid(5bd72809dd842be458d864704d99e5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Soviet Car Pack/Prefabs/vz08/vz08_ lightblue.prefab using Guid(5bd72809dd842be458d864704d99e5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed69ec47788557c7408a213c534f1a1') in 0.015497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Low Poly Soviet Car Pack/Prefabs/vz08/vz08_black.prefab
+  artifactKey: Guid(118ef87faa402484b968748be753fabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Soviet Car Pack/Prefabs/vz08/vz08_black.prefab using Guid(118ef87faa402484b968748be753fabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e9848a8ad9b7ce0c6b8c532ff628790') in 0.014207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.750510 seconds.
+  path: Assets/Low Poly Soviet Car Pack/Prefabs/vz09/vz09_ green.prefab
+  artifactKey: Guid(1654b17d23f689340a47ce6c90304cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Soviet Car Pack/Prefabs/vz09/vz09_ green.prefab using Guid(1654b17d23f689340a47ce6c90304cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b6ba72fff6d96c48a98e2abf32ad1ed') in 0.013191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Low Poly Soviet Car Pack/Prefabs/vz09/vz09_ yellow.prefab
+  artifactKey: Guid(ee34066a92a2bd649b5f63f3c26dc515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Soviet Car Pack/Prefabs/vz09/vz09_ yellow.prefab using Guid(ee34066a92a2bd649b5f63f3c26dc515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ce37f3ecb7e25ca4c0fa34b72c4551') in 0.014005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Low Poly Soviet Car Pack/Prefabs/vz09/vz09_ lightblue.prefab
+  artifactKey: Guid(bed7f529b521b1c4890fef540ee667a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Soviet Car Pack/Prefabs/vz09/vz09_ lightblue.prefab using Guid(bed7f529b521b1c4890fef540ee667a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '000f35318c5709903fe4fb547001b8ea') in 0.014687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.176492 seconds.
+  path: Assets/Wet Roads/Prefabs/3.prefab
+  artifactKey: Guid(cdc3480e7d96918429a4b28f9e095d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wet Roads/Prefabs/3.prefab using Guid(cdc3480e7d96918429a4b28f9e095d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c80dfa97df6f2f08b2fe4c77481df9b5') in 0.754996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Wet Roads/Prefabs/4.prefab
+  artifactKey: Guid(4ee9264f841ee4b4f860f06256fe8f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wet Roads/Prefabs/4.prefab using Guid(4ee9264f841ee4b4f860f06256fe8f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b987f133f6bf5f09c96f5aa0a88de3cc') in 0.268826 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011046 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\unity\test2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\unity\test2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.289 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1289ms)
+		BeginReloadAssembly (182ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1016ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (347ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (417ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (213ms)
+				ProcessInitializeOnLoadMethodAttributes (77ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5078 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (431.3 KB). Loaded Objects now: 5950.
+Memory consumption went from 248.7 MB to 248.2 MB.
+Total: 3.344100 ms (FindLiveObjects: 0.358000 ms CreateObjectMapping: 0.299700 ms MarkObjects: 2.447200 ms  DeleteObjects: 0.238900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 42.744440 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/apple_001.prefab
+  artifactKey: Guid(c61637a7cdac8614897db62cdb4d8caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer_4_Candy/Prefabs/apple_001.prefab using Guid(c61637a7cdac8614897db62cdb4d8caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91ec0914f35954ed27fca82ace6a6a58') in 0.209043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/ground_001.prefab
+  artifactKey: Guid(6f7c59bcfeb846841b68851c957f052a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer_4_Candy/Prefabs/ground_001.prefab using Guid(6f7c59bcfeb846841b68851c957f052a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d777c6eb8ca1ee76e29cfaa43ec2a9') in 0.017959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/candy_inflatable_002.prefab
+  artifactKey: Guid(fdada4d38a343fd4b8abdca496568866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer_4_Candy/Prefabs/candy_inflatable_002.prefab using Guid(fdada4d38a343fd4b8abdca496568866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc0d4869ed919394927557c52df0ef4f') in 0.023789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/candy_011.prefab
+  artifactKey: Guid(ebeb04ab9964cc141b61a56e95a06a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer_4_Candy/Prefabs/candy_011.prefab using Guid(ebeb04ab9964cc141b61a56e95a06a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30930fc0a80ca442b182fd226e105f27') in 0.054002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/candy_012.prefab
+  artifactKey: Guid(12277493e572a1540aa9f12cc8fcc94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer_4_Candy/Prefabs/candy_012.prefab using Guid(12277493e572a1540aa9f12cc8fcc94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c29647a548917c4f6e205920bc9e0a39') in 0.023754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/candy_002_roll.prefab
+  artifactKey: Guid(06a082118de384a46b20611cfdd95cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer_4_Candy/Prefabs/candy_002_roll.prefab using Guid(06a082118de384a46b20611cfdd95cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6408d9bc7166e7f296bf2af602282f5c') in 0.024397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/candy_005.prefab
+  artifactKey: Guid(93a5febf51dc6414eb2cec6c56a9c0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer_4_Candy/Prefabs/candy_005.prefab using Guid(93a5febf51dc6414eb2cec6c56a9c0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51aff84c9f9136ba52e472144466abee') in 0.018389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/finish_001.prefab
+  artifactKey: Guid(5fd205e167322d64dbf11dc6d1bd1ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer_4_Candy/Prefabs/finish_001.prefab using Guid(5fd205e167322d64dbf11dc6d1bd1ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '215ef36c67a379a7e077f00f435a558d') in 0.019374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/birthday_candle_001.prefab
+  artifactKey: Guid(b1488b676e8d6294dbb87fb6f098dd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer_4_Candy/Prefabs/birthday_candle_001.prefab using Guid(b1488b676e8d6294dbb87fb6f098dd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e71a0ec752461c5bc227a446e5a06dc1') in 0.033290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/drone_002.prefab
+  artifactKey: Guid(85c8df84be43f1b41bcab0dd9a302ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer_4_Candy/Prefabs/drone_002.prefab using Guid(85c8df84be43f1b41bcab0dd9a302ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f7fbfab1c81fa556c2aa95f620b91b') in 0.017823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/candy_inflatable_001.prefab
+  artifactKey: Guid(5d101a490c687424a99c0a92c8795455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer_4_Candy/Prefabs/candy_inflatable_001.prefab using Guid(5d101a490c687424a99c0a92c8795455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ea9eb530207fd4e009d6f17d00e505') in 0.018757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/candy_001_roll.prefab
+  artifactKey: Guid(a6b6a59b67fdc71459f88fdb0a15c476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer_4_Candy/Prefabs/candy_001_roll.prefab using Guid(a6b6a59b67fdc71459f88fdb0a15c476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a85120720602bec611cf32c3d90927') in 0.016294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/ground_009.prefab
+  artifactKey: Guid(b5a3a4a0dbacbeb4195ffc1e3ca258d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer_4_Candy/Prefabs/ground_009.prefab using Guid(b5a3a4a0dbacbeb4195ffc1e3ca258d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb583e38cacc6d3b3105bfc26da031b4') in 0.014315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/birthday_candle_009.prefab
+  artifactKey: Guid(337a22efb460f0645aec33125e839840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer_4_Candy/Prefabs/birthday_candle_009.prefab using Guid(337a22efb460f0645aec33125e839840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f5d6f00e45037240df6a3e520444ea0') in 0.015208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/dynamite_002.prefab
+  artifactKey: Guid(7451ab3afae625648b5153e27613cd00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer_4_Candy/Prefabs/dynamite_002.prefab using Guid(7451ab3afae625648b5153e27613cd00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f4d52937614d7b54cf03fad9a6aa21f') in 0.012915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/caramel_cone_001.prefab
+  artifactKey: Guid(f22362385fb481e4282f13bbb221fbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer_4_Candy/Prefabs/caramel_cone_001.prefab using Guid(f22362385fb481e4282f13bbb221fbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a6f1e0e6e94b5e6da49454e93ba3f81') in 0.015901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/candy_015.prefab
+  artifactKey: Guid(a20a27cb83bfed942af20389b62a62db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer_4_Candy/Prefabs/candy_015.prefab using Guid(a20a27cb83bfed942af20389b62a62db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a0ec4437caa555badaf28c95be06317') in 0.015666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/ground_002.prefab
+  artifactKey: Guid(61c613eeab6aafb4babbd859d04aa162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer_4_Candy/Prefabs/ground_002.prefab using Guid(61c613eeab6aafb4babbd859d04aa162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23b5cdebacc3ade180395dd03642f6af') in 0.013622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/birthday_candle_008.prefab
+  artifactKey: Guid(896d2bef76939374093fda1c4f8d4043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer_4_Candy/Prefabs/birthday_candle_008.prefab using Guid(896d2bef76939374093fda1c4f8d4043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4850756c4a698f8f4e697694b14b840') in 0.015194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/checkpoint_003.prefab
+  artifactKey: Guid(273034125e50840429ad2a807f58ab35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer_4_Candy/Prefabs/checkpoint_003.prefab using Guid(273034125e50840429ad2a807f58ab35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a5064d2de210f0ecbf19eb5e4718f44') in 0.014068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/cannon_001.prefab
+  artifactKey: Guid(f3c5a2cdb6804fd4d86168bd40ba7fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer_4_Candy/Prefabs/cannon_001.prefab using Guid(f3c5a2cdb6804fd4d86168bd40ba7fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e8b5c8c34b4d1e6a5175ca2f264055') in 0.024574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/drone_sign_003.prefab
+  artifactKey: Guid(7d285febd3965c04eae53aaa838e6fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer_4_Candy/Prefabs/drone_sign_003.prefab using Guid(7d285febd3965c04eae53aaa838e6fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c63caa819fe3fdcee85c84481f76f6') in 0.048810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/candy_caramel_001.prefab
+  artifactKey: Guid(90fc71fe999d976459d9275f0c6b234f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer_4_Candy/Prefabs/candy_caramel_001.prefab using Guid(90fc71fe999d976459d9275f0c6b234f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c8420b7e0596a061e89c6e0c74b13a3') in 0.038148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/caramel_cone_002.prefab
+  artifactKey: Guid(de3ca925754803e41b6cdc972fce430f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer_4_Candy/Prefabs/caramel_cone_002.prefab using Guid(de3ca925754803e41b6cdc972fce430f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '406d9fb6faf302c39a2fdee8338d201a') in 0.015564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/ground_013.prefab
+  artifactKey: Guid(acb1895860ee30440ab8f7f1d5675400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer_4_Candy/Prefabs/ground_013.prefab using Guid(acb1895860ee30440ab8f7f1d5675400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50788fb2f353c95675f3dd33d90bd71') in 0.014548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.207557 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(2b82fb80043bcfd4bb8385d719126350) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(2b82fb80043bcfd4bb8385d719126350) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6d2eebcb2f9558863797df5e2914a99d') in 0.164662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/candy_006.fbx
+  artifactKey: Guid(4338858bca4514f45a0f9a251261035e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/candy_006.fbx using Guid(4338858bca4514f45a0f9a251261035e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8050aa37848cb40d66b22cba9380c253') in 0.081689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/coin_001.fbx
+  artifactKey: Guid(63b9e9678cf43f540a46464be94afdff) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/coin_001.fbx using Guid(63b9e9678cf43f540a46464be94afdff) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3a5f12c8518d4b70b091fa1b4da145f5') in 0.033221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/candy_015.fbx
+  artifactKey: Guid(7a455ef41aced694da4ad4b01c2539bf) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/candy_015.fbx using Guid(7a455ef41aced694da4ad4b01c2539bf) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b5d7e3df604b63fc99d468551a1cd5c2') in 0.025240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/birthday_candle_010.fbx
+  artifactKey: Guid(9c3cf98a8eafbf244b4a605297105816) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/birthday_candle_010.fbx using Guid(9c3cf98a8eafbf244b4a605297105816) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1d39fde5bb203da1eed65c13273d7d67') in 0.026139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_ground038f9406e577a89d2d.terrainlayer
+  artifactKey: Guid(051cbf649b107fc43ac269ba96360713) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/_TerrainAutoUpgrade/layer_ground038f9406e577a89d2d.terrainlayer using Guid(051cbf649b107fc43ac269ba96360713) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '585308e8d7486475b42fab29bb174e4e') in 0.050023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/checkpoint_003.fbx
+  artifactKey: Guid(f331cb8a363ce5a49b4836989b360b34) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/checkpoint_003.fbx using Guid(f331cb8a363ce5a49b4836989b360b34) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e5d786605ef5bd8cfb742322252ad646') in 0.026130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/gummi_bear_001.fbx
+  artifactKey: Guid(6ac31470b4cac814c9683e183915116d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/gummi_bear_001.fbx using Guid(6ac31470b4cac814c9683e183915116d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2f120ae95bf9266b7b41ea2ceffc8ec2') in 0.024950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_SandAlbedo3d3aba195e4d26ee.terrainlayer
+  artifactKey: Guid(01cf79c24a93f1c44aa115acfac607f3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/_TerrainAutoUpgrade/layer_SandAlbedo3d3aba195e4d26ee.terrainlayer using Guid(01cf79c24a93f1c44aa115acfac607f3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1cf436a1fd65aef32b0948c0c77530d6') in 0.010380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/cup_platform_001.fbx
+  artifactKey: Guid(392675f8f4491d846bbf2c0ba8c9f997) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/cup_platform_001.fbx using Guid(392675f8f4491d846bbf2c0ba8c9f997) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0036e0adf56a85e532405ed7fb632a1f') in 0.022898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/drone_propeller_002.fbx
+  artifactKey: Guid(74da0ba053e1d3a429401aad079664ea) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/drone_propeller_002.fbx using Guid(74da0ba053e1d3a429401aad079664ea) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '62edac28c817f9f38bcfbdf01e7aa956') in 0.024787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/lollipop_009.fbx
+  artifactKey: Guid(16b4885a814bc7141acec297e2de99c4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/lollipop_009.fbx using Guid(16b4885a814bc7141acec297e2de99c4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '43dd3d9985206e7de0e0df38962f65a7') in 0.034232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/key_001.fbx
+  artifactKey: Guid(66cc265839565af4bbaab69c6b140a3a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/key_001.fbx using Guid(66cc265839565af4bbaab69c6b140a3a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '42477b4a0b1cec5430d297a51b945e29') in 0.023784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/candy_010.fbx
+  artifactKey: Guid(0d1454addd9a6b74ca099827fa3d82e1) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/candy_010.fbx using Guid(0d1454addd9a6b74ca099827fa3d82e1) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '26995438ad5f74aaafb8fdbec24c11b0') in 0.024886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_GrassUV01GrassUV01_Nd668f1e20ece139b.terrainlayer
+  artifactKey: Guid(93142376d912cc54a80ca1c65c5d6d64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_TerrainAutoUpgrade/layer_GrassUV01GrassUV01_Nd668f1e20ece139b.terrainlayer using Guid(93142376d912cc54a80ca1c65c5d6d64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '16d7f7a00da1649e04c5e431e5902504') in 0.027562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7bb34d1cacabc1a2f30d0411b35c4cc7') in 0.022355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/ground_006.fbx
+  artifactKey: Guid(94df4d8b378e22e4b8ec3a7be61fd8f6) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/ground_006.fbx using Guid(94df4d8b378e22e4b8ec3a7be61fd8f6) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2991be25753c4f287f677e3c92e5a43d') in 0.025008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Grass (Muddy)Grass (Muddy)_normalb956af97c33fc3d7.terrainlayer
+  artifactKey: Guid(3c5e6ff236876f24b91ec8bcc605bea9) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/_TerrainAutoUpgrade/layer_Grass (Muddy)Grass (Muddy)_normalb956af97c33fc3d7.terrainlayer using Guid(3c5e6ff236876f24b91ec8bcc605bea9) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6a56785aa624b0bc9cc1b8a65f7e6020') in 0.033793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/lollipop_002.fbx
+  artifactKey: Guid(1bc4c7c3d3cde8f4b873143352044d0c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/lollipop_002.fbx using Guid(1bc4c7c3d3cde8f4b873143352044d0c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0337a3ba90f397d96be2509b2000de7b') in 0.026284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Platformer_4_Candy/Materials/Color.mat
+  artifactKey: Guid(727de386e8413084eb27a01f85abf6e7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Materials/Color.mat using Guid(727de386e8413084eb27a01f85abf6e7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '578ed9944c98c960c4f9c1a692bbaa45') in 0.036894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/birthday_candle_004.fbx
+  artifactKey: Guid(10ad53cb8b98a134f95719d44bc13290) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/birthday_candle_004.fbx using Guid(10ad53cb8b98a134f95719d44bc13290) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2bb39d5e30e3c106718616a599ab9f59') in 0.025182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/lollipop_001.fbx
+  artifactKey: Guid(d5044b37abb1b264cacdba1dac92b69f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/lollipop_001.fbx using Guid(d5044b37abb1b264cacdba1dac92b69f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b4fdd1c1f9d91cd55a114110de792e65') in 0.028108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/lollipop_011.fbx
+  artifactKey: Guid(f0b9ab7a6521c8b4caa4a159c5868065) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/lollipop_011.fbx using Guid(f0b9ab7a6521c8b4caa4a159c5868065) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '879bdd25c950e88b4938d2dd2bcbc1d3') in 0.024350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/birthday_candle_006.fbx
+  artifactKey: Guid(fa7cf273e09670d41982e532d95ee72b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/birthday_candle_006.fbx using Guid(fa7cf273e09670d41982e532d95ee72b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd0d1888d11c1e1faae170a6b19b3d52') in 0.039776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Platformer_4_Candy/Materials/Waves_1.mat
+  artifactKey: Guid(f03e702d23192594e9c4f1952bb7518b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Materials/Waves_1.mat using Guid(f03e702d23192594e9c4f1952bb7518b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b156b5eb05b24f06b1c04865f7d59ea4') in 0.011040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_GroundDryLeaves01GroundDryLeaves01_N793646612c42751.terrainlayer
+  artifactKey: Guid(14ac1ffe3c3b790498991b80862d7de3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/_TerrainAutoUpgrade/layer_GroundDryLeaves01GroundDryLeaves01_N793646612c42751.terrainlayer using Guid(14ac1ffe3c3b790498991b80862d7de3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1db2982b4b40590c297d1089e87d2b4e') in 0.014406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/key_002.fbx
+  artifactKey: Guid(e28109c72f3de9949a3c610517504b4f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/key_002.fbx using Guid(e28109c72f3de9949a3c610517504b4f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b844117da574f42389d1951aae7a630f') in 0.025634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/marmalade_003.fbx
+  artifactKey: Guid(064c87adaca6b3e46b26be2ccb772eb0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/marmalade_003.fbx using Guid(064c87adaca6b3e46b26be2ccb772eb0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5a80119fa822d780ae4f070cecf10ae3') in 0.032092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/obstacle_1_001.fbx
+  artifactKey: Guid(812da2fa8479312459e04a7f11a32ce8) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/obstacle_1_001.fbx using Guid(812da2fa8479312459e04a7f11a32ce8) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '33ad662613bb87de446580d3f7a4b12b') in 0.025674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/obstacle_11_001.fbx
+  artifactKey: Guid(88f1c8e01ca138b43b344d857633db26) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/obstacle_11_001.fbx using Guid(88f1c8e01ca138b43b344d857633db26) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9d953e4645da3fa86bf691d16f5e11ac') in 0.025893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/lollipop_030.fbx
+  artifactKey: Guid(77ecbc3af26141040b0d280e12c8c1c4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/lollipop_030.fbx using Guid(77ecbc3af26141040b0d280e12c8c1c4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '747c78fce4b260df2c134e867134654d') in 0.028706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/marmalade_001.fbx
+  artifactKey: Guid(bb7e65a7f02268d44a6599301ef4177c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/marmalade_001.fbx using Guid(bb7e65a7f02268d44a6599301ef4177c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1186229d2d5913930985d9713642a5cf') in 0.024273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/lollipop_029.fbx
+  artifactKey: Guid(fa95e4cd4a191244bad499fff0a57b3f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/lollipop_029.fbx using Guid(fa95e4cd4a191244bad499fff0a57b3f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '697f1f51961cd857f04d2aff83c6b82d') in 0.026269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/obstacle_3_001.fbx
+  artifactKey: Guid(e4ed15d872f3eb94297877b99742639d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/obstacle_3_001.fbx using Guid(e4ed15d872f3eb94297877b99742639d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '26a0fe8cc2bee34fe9b1b273ef244125') in 0.029470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/lollipop_027.fbx
+  artifactKey: Guid(e2fa57a2b1004974fbc46e9571b35a9c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/lollipop_027.fbx using Guid(e2fa57a2b1004974fbc46e9571b35a9c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'caaa038a399682921a82e8b31958caf3') in 0.028116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/lollipop_024.fbx
+  artifactKey: Guid(d70d64291837fb04f9ca51ebc986a592) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/lollipop_024.fbx using Guid(d70d64291837fb04f9ca51ebc986a592) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0d25b1938f35bd2a5efe5287767d1a8f') in 0.027079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/lollipop_020.fbx
+  artifactKey: Guid(8c61315451bf2c24ba0149ec4e030f0a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/lollipop_020.fbx using Guid(8c61315451bf2c24ba0149ec4e030f0a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '75b4586f9aeb904447cddcfb9e71b6ce') in 0.024470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/obstacle_1_002.fbx
+  artifactKey: Guid(ec31e818599be29419e9e1af87cd9c04) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/obstacle_1_002.fbx using Guid(ec31e818599be29419e9e1af87cd9c04) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd28394a5a46d7cb5c7f1d8259efd0965') in 0.032874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/marmalade_snake_003.fbx
+  artifactKey: Guid(bcfcb8ce65ba52f4bb23c026414fd5a2) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/marmalade_snake_003.fbx using Guid(bcfcb8ce65ba52f4bb23c026414fd5a2) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1f14834f83b1de962e5b2070bc3cac27') in 0.024248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/marshmallow_004.fbx
+  artifactKey: Guid(52dd3dad2e7d0514c9dbb659d58753c7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/marshmallow_004.fbx using Guid(52dd3dad2e7d0514c9dbb659d58753c7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0897bca2d2e7d08a6e9e43d6e208d177') in 0.025180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/marshmallow_001.fbx
+  artifactKey: Guid(6ed752de1b0881543bd276a92fb7e7d7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/marshmallow_001.fbx using Guid(6ed752de1b0881543bd276a92fb7e7d7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7c7dc0c9c30ae5a38cdba7c9996a4dbb') in 0.024984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/marmalade_002.fbx
+  artifactKey: Guid(ed6c4fce511329d45a7687af9110adbb) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/marmalade_002.fbx using Guid(ed6c4fce511329d45a7687af9110adbb) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9bac9a323675e9546e6f1e049bc95297') in 0.026973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/lollipop_032.fbx
+  artifactKey: Guid(7592698db06f8f74ab0e19d1916c3f7d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/lollipop_032.fbx using Guid(7592698db06f8f74ab0e19d1916c3f7d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a0489e508589b2560fc77de219f850d0') in 0.025450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/obstacle_2_001.fbx
+  artifactKey: Guid(384de7df8a2761042883f161f6974341) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/obstacle_2_001.fbx using Guid(384de7df8a2761042883f161f6974341) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a295e437ebb64b878dbe8633fe874195') in 0.025641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/candy_005.fbx
+  artifactKey: Guid(90b842c26db976f4e8ce8bc6ec38dd95) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/candy_005.fbx using Guid(90b842c26db976f4e8ce8bc6ec38dd95) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '34127c19a3c95482897a78d825dedec1') in 0.023821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/birthday_candle_003.prefab
+  artifactKey: Guid(4410fde0c37969345befaa0c30232451) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/birthday_candle_003.prefab using Guid(4410fde0c37969345befaa0c30232451) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b73acc6da0db0b293e310d549cde6725') in 0.024633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/platform_candy_002.fbx
+  artifactKey: Guid(a6fa93c92b3c0084c942f5f696784653) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/platform_candy_002.fbx using Guid(a6fa93c92b3c0084c942f5f696784653) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'de8f30b409c8c635adc631e388c3e6e9') in 0.025243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/candy_001.prefab
+  artifactKey: Guid(b730e73a507e81d498ca4890fb6e5cd8) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/candy_001.prefab using Guid(b730e73a507e81d498ca4890fb6e5cd8) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4d97732b37f21388a8fea0599eb300d9') in 0.020551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/birthday_candle_006.prefab
+  artifactKey: Guid(3334df7647c46af4eb743c4e13fb4df0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/birthday_candle_006.prefab using Guid(3334df7647c46af4eb743c4e13fb4df0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6bf5fb2aacdbbc23b1f6ebfb178c49c2') in 0.024256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/platform_candy_006.fbx
+  artifactKey: Guid(5d5316dd507a426458826316adb5f3d3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/platform_candy_006.fbx using Guid(5d5316dd507a426458826316adb5f3d3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '068afaea66ba45dcdb15bb28e48858af') in 0.033904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/candy_001_roll.prefab
+  artifactKey: Guid(a6b6a59b67fdc71459f88fdb0a15c476) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/candy_001_roll.prefab using Guid(a6b6a59b67fdc71459f88fdb0a15c476) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7dbdce97f63e2cc2f55dabcee48b8d9a') in 0.019145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/platform_marmalade_003.fbx
+  artifactKey: Guid(9d3cb625abf5b3d4fa1d4542d728a170) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/platform_marmalade_003.fbx using Guid(9d3cb625abf5b3d4fa1d4542d728a170) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '41e02262f510621ad39189b4f86decb4') in 0.024199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/obstacle_7_002.fbx
+  artifactKey: Guid(da8f29508b9cd4745a60de6d607d1285) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/obstacle_7_002.fbx using Guid(da8f29508b9cd4745a60de6d607d1285) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9e087c4d7f989e4782a9eda29fc12989') in 0.026926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/water_001.fbx
+  artifactKey: Guid(b2376202ceb42dd469f3142d065c18ff) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/water_001.fbx using Guid(b2376202ceb42dd469f3142d065c18ff) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6c5e0161d8f0198436eb6303933c5c9c') in 0.028165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/birthday_candle_002.prefab
+  artifactKey: Guid(366b2ca359411214baf0a7cde02d5d26) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/birthday_candle_002.prefab using Guid(366b2ca359411214baf0a7cde02d5d26) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1916b7a9e47a4e27751f71a376d763a5') in 0.021743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/candy_011.fbx
+  artifactKey: Guid(47be27a7b78b8f542ad6c82f86ac566d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/candy_011.fbx using Guid(47be27a7b78b8f542ad6c82f86ac566d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef8c4396b6d7c5dd3903985ad2e9c4dc') in 0.026776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(8236755fb0f1d404cb699d73f1d76c65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources using Guid(8236755fb0f1d404cb699d73f1d76c65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e1d1cbdf62dd4e2542230c7837b0abcc') in 0.008501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/ground_007.fbx
+  artifactKey: Guid(8aab433936ef4644ca8f5bd6f993baba) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/ground_007.fbx using Guid(8aab433936ef4644ca8f5bd6f993baba) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd3b90d1160333e77b4aef9baf5588207') in 0.027463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/ground_001.fbx
+  artifactKey: Guid(643cec6fe2a4827458e77eb471bc1067) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/ground_001.fbx using Guid(643cec6fe2a4827458e77eb471bc1067) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ec7c2c697fdf37911f826f7df0695786') in 0.030987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/lollipop_021.fbx
+  artifactKey: Guid(f10c028966e76aa419b6d99c27e48c4e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/lollipop_021.fbx using Guid(f10c028966e76aa419b6d99c27e48c4e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ac127eb865524ecfcd81d16aa4d4a25c') in 0.027576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/candy_vending_machine_002.fbx
+  artifactKey: Guid(e63f77b2280ae1447a4cc23dd9ca83ab) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/candy_vending_machine_002.fbx using Guid(e63f77b2280ae1447a4cc23dd9ca83ab) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f93e0ca1ce378eb7b3bbfd55ebecbfe') in 0.027046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/lollipop_019.fbx
+  artifactKey: Guid(a0239bdaff4e8e747ad086cd9dbaffbf) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/lollipop_019.fbx using Guid(a0239bdaff4e8e747ad086cd9dbaffbf) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f2fb3fd9cb175ccff960e06b0ef814bc') in 0.025919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/candy_009.fbx
+  artifactKey: Guid(d2462bfa7a1690346875c70b477241fe) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/candy_009.fbx using Guid(d2462bfa7a1690346875c70b477241fe) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2660f3c9e0ca682f6e0f97328f454ef4') in 0.024389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/apple_001.fbx
+  artifactKey: Guid(df04400b1c7c80a4199c163153d5cbf4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/apple_001.fbx using Guid(df04400b1c7c80a4199c163153d5cbf4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5bdadfd313c8add945f85c35cb76a915') in 0.024594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/cannon_002.prefab
+  artifactKey: Guid(7acbf6b4ef6e1df4490c36d29709f411) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/cannon_002.prefab using Guid(7acbf6b4ef6e1df4490c36d29709f411) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ff3fc84fa730b98fe9a81c7922b5982e') in 0.053755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/ground_006.prefab
+  artifactKey: Guid(57d914de07f23e146be4fec12e367dff) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/ground_006.prefab using Guid(57d914de07f23e146be4fec12e367dff) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1213e8a61e9d0b6840be4ba51e753b79') in 0.014981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/drone_003.prefab
+  artifactKey: Guid(0900cfaf97b8997459149848a3eba63d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/drone_003.prefab using Guid(0900cfaf97b8997459149848a3eba63d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3d94ce33a5fae184ef6dd90826ba54f3') in 0.040702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/dynamite_001.prefab
+  artifactKey: Guid(d84f673bb01647a41a69727c7521dec4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/dynamite_001.prefab using Guid(d84f673bb01647a41a69727c7521dec4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '860f9bdf7a74d9aeff82ed90de94a432') in 0.016202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/ground_001.prefab
+  artifactKey: Guid(6f7c59bcfeb846841b68851c957f052a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/ground_001.prefab using Guid(6f7c59bcfeb846841b68851c957f052a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a242d54a301cc080d34fc1b5835d07a7') in 0.014141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/candy_016.prefab
+  artifactKey: Guid(1886f755ede152e4799888810b7fc98a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/candy_016.prefab using Guid(1886f755ede152e4799888810b7fc98a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd56404f636dab91a2ab1a3029f88da88') in 0.018764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/caramel_cone_001.prefab
+  artifactKey: Guid(f22362385fb481e4282f13bbb221fbf2) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/caramel_cone_001.prefab using Guid(f22362385fb481e4282f13bbb221fbf2) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1da26c809be1eb236ba3b63ec0397872') in 0.021618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/ground_004.prefab
+  artifactKey: Guid(defda6c59193d974da3a294a65f2ddb9) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/ground_004.prefab using Guid(defda6c59193d974da3a294a65f2ddb9) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '34759badef096d0b2e61df6297ff89e5') in 0.016581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/ground_005.prefab
+  artifactKey: Guid(f503e6ba2124d5747850be1b94772050) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/ground_005.prefab using Guid(f503e6ba2124d5747850be1b94772050) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '561283a878cc14fc6355ecc2a7fd04f6') in 0.029095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/dynamite_002.prefab
+  artifactKey: Guid(7451ab3afae625648b5153e27613cd00) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/dynamite_002.prefab using Guid(7451ab3afae625648b5153e27613cd00) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c50924c3a058a1f6a05809eab245b1a3') in 0.013740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/ground_007.prefab
+  artifactKey: Guid(0959fc8329773374faa1111a957d44ef) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/ground_007.prefab using Guid(0959fc8329773374faa1111a957d44ef) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a25b74f73b5ec75ced41578c88466c4d') in 0.023330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/checkpoint_003.prefab
+  artifactKey: Guid(273034125e50840429ad2a807f58ab35) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/checkpoint_003.prefab using Guid(273034125e50840429ad2a807f58ab35) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f11d1c3f209ed818f1ba1e13118faa7e') in 0.013517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/finish_001.prefab
+  artifactKey: Guid(5fd205e167322d64dbf11dc6d1bd1ba6) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/finish_001.prefab using Guid(5fd205e167322d64dbf11dc6d1bd1ba6) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '99cfc749e4beb389652b59c80b92c293') in 0.016165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/candy_008.prefab
+  artifactKey: Guid(c9a3cb3ee1ce7554d9aa5d3795042bfc) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/candy_008.prefab using Guid(c9a3cb3ee1ce7554d9aa5d3795042bfc) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6d0f56a384b15b39f3d7bf80435e2530') in 0.022814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/coin_001_01.prefab
+  artifactKey: Guid(a66b00a44a76a6f4d8a45d6458098c86) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/coin_001_01.prefab using Guid(a66b00a44a76a6f4d8a45d6458098c86) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '756b3af557eb71db4b03afd679276bf3') in 0.014779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/candy_vending_machine_001.prefab
+  artifactKey: Guid(7a5be57a4145702449b3e3aa1766c048) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/candy_vending_machine_001.prefab using Guid(7a5be57a4145702449b3e3aa1766c048) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '40c6a5ba57bd6c765586aab16773bc79') in 0.017326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/candy_010.prefab
+  artifactKey: Guid(fa2aff41484d91c41a5f0e6effefc499) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/candy_010.prefab using Guid(fa2aff41484d91c41a5f0e6effefc499) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c156a186c1fe7d749a54aec649d28749') in 0.019553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_GroundDryLeaves01GroundDryLeaves01_N793646612c42751.terrainlayer
+  artifactKey: Guid(14ac1ffe3c3b790498991b80862d7de3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_TerrainAutoUpgrade/layer_GroundDryLeaves01GroundDryLeaves01_N793646612c42751.terrainlayer using Guid(14ac1ffe3c3b790498991b80862d7de3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'efa2a4a6b3bd0b74681c845f5b6f2c51') in 0.014911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/caramel_cone_001.fbx
+  artifactKey: Guid(67b5692200ebbeb43a2391ddcad06b59) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/caramel_cone_001.fbx using Guid(67b5692200ebbeb43a2391ddcad06b59) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '17197faddbb699bbd7da9d202f0af209') in 0.024379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Platformer_4_Candy/Meshes/obstacle_9_001.fbx
+  artifactKey: Guid(c6c12f8c01dc1724ebd47fc79cc83dbd) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Meshes/obstacle_9_001.fbx using Guid(c6c12f8c01dc1724ebd47fc79cc83dbd) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f7b3a5b61f2079a7c93e7322564f8212') in 0.028093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/lollipop_031.prefab
+  artifactKey: Guid(6ec5feb359b545a4ba5cf2468b98a2e8) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/lollipop_031.prefab using Guid(6ec5feb359b545a4ba5cf2468b98a2e8) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4b576f28ef61d33e85d012377b499369') in 0.029246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/lollipop_003.prefab
+  artifactKey: Guid(ee20d3a0dfc183f4aa3e0f882a063032) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/lollipop_003.prefab using Guid(ee20d3a0dfc183f4aa3e0f882a063032) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '605685232a7098c90648eed717af6c40') in 0.020992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/marmalade_002.prefab
+  artifactKey: Guid(d5e7fb3f278a13d419b9ebc8f80213b4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/marmalade_002.prefab using Guid(d5e7fb3f278a13d419b9ebc8f80213b4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '34877b967d34ef29449eea85747c6cac') in 0.016741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/gummi_bear_001.prefab
+  artifactKey: Guid(5e90b154df3e79d46a7f27102e52b387) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/gummi_bear_001.prefab using Guid(5e90b154df3e79d46a7f27102e52b387) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6dbe271350962aaf38207e545f30712b') in 0.020561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/lollipop_018.prefab
+  artifactKey: Guid(d7babfd17bb1fde4485256be657014f1) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/lollipop_018.prefab using Guid(d7babfd17bb1fde4485256be657014f1) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e91d2f4241f07d1bb5c05f0f725eda31') in 0.020963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/lollipop_025.prefab
+  artifactKey: Guid(1df974806a8bd0a45974373e148e504a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/lollipop_025.prefab using Guid(1df974806a8bd0a45974373e148e504a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b5b7335fc1fc92695a25556f4455e3aa') in 0.020486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/key_001.prefab
+  artifactKey: Guid(0d9677d05cceb644cb7cde66c4c4dc91) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/key_001.prefab using Guid(0d9677d05cceb644cb7cde66c4c4dc91) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '881b01b5d058a906ac97c54a1f558485') in 0.013891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/gummi_bear_003.prefab
+  artifactKey: Guid(ab678775050c7e4459dc88271627a3f5) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/gummi_bear_003.prefab using Guid(ab678775050c7e4459dc88271627a3f5) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '742921412ace84548d5c9bc0628d8cf2') in 0.020288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/ice_cream_003.prefab
+  artifactKey: Guid(c3bd682c9dbc4374aad3d5f290cb0a73) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/ice_cream_003.prefab using Guid(c3bd682c9dbc4374aad3d5f290cb0a73) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '287d2a1f4e6ec7bf8bd31f0a645a3f8e') in 0.021663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/marmalade_003.prefab
+  artifactKey: Guid(510f3d04bac6aaa4dac76e5fd61a8e08) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/marmalade_003.prefab using Guid(510f3d04bac6aaa4dac76e5fd61a8e08) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5cdf48109efb016fd06fa4361cc69505') in 0.018508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/lollipop_022.prefab
+  artifactKey: Guid(8d0cc9e704d8cf44699e05ad525225e2) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/lollipop_022.prefab using Guid(8d0cc9e704d8cf44699e05ad525225e2) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b392c443674299b8904d68b306820843') in 0.017887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/ice_cream_002.prefab
+  artifactKey: Guid(c9c1f8e55f2cb8541a1f2fa307c455bd) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/ice_cream_002.prefab using Guid(c9c1f8e55f2cb8541a1f2fa307c455bd) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9ebe04b5fdb7784c3dabbe7f9bd6339d') in 0.019764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/lollipop_035.prefab
+  artifactKey: Guid(24e35db776ce6e34e94d734e0b8f6674) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/lollipop_035.prefab using Guid(24e35db776ce6e34e94d734e0b8f6674) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea7120e00ed4281ed8ae82319f53d366') in 0.035453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/lollipop_019.prefab
+  artifactKey: Guid(9f35bcebeacb01d4696b9f6bcaa26f11) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/lollipop_019.prefab using Guid(9f35bcebeacb01d4696b9f6bcaa26f11) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3f28190073ac2624d2481dca773970dd') in 0.022168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/ground_013.prefab
+  artifactKey: Guid(acb1895860ee30440ab8f7f1d5675400) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/ground_013.prefab using Guid(acb1895860ee30440ab8f7f1d5675400) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f732ddcd2aed6ba94bcb4e1160cd40f6') in 0.019438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/lollipop_009.prefab
+  artifactKey: Guid(8e804f69d9735bb4b84435d265c4d8f2) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/lollipop_009.prefab using Guid(8e804f69d9735bb4b84435d265c4d8f2) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1d2d638bead60d43fec229dd221648dc') in 0.021241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/lollipop_034.prefab
+  artifactKey: Guid(b181d242b5fc8734db1400bfd13c5baf) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/lollipop_034.prefab using Guid(b181d242b5fc8734db1400bfd13c5baf) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2a1fa0d9379b9340bc14a6b47765606c') in 0.019660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/lollipop_030.prefab
+  artifactKey: Guid(111330d04de74a243959313d935b93b1) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/lollipop_030.prefab using Guid(111330d04de74a243959313d935b93b1) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '965dddd5b12bcfe1b8b3d265ed9cafcb') in 0.017401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/lollipop_016.prefab
+  artifactKey: Guid(d684b580275705d4c9284b9475d70363) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/lollipop_016.prefab using Guid(d684b580275705d4c9284b9475d70363) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3cdc0b578ee1ac43db0d2c4733efeb80') in 0.020761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/lollipop_013.prefab
+  artifactKey: Guid(6ef265f513c1513468591cb744a99520) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/lollipop_013.prefab using Guid(6ef265f513c1513468591cb744a99520) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd5c480ea7168ede1a196e55c7f573fd6') in 0.019811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/obstacle_7_001.prefab
+  artifactKey: Guid(b97a67b5c8dc3dd41ad268f327fa624c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/obstacle_7_001.prefab using Guid(b97a67b5c8dc3dd41ad268f327fa624c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '434dcacb74c267e98f604d5d8963ccec') in 0.022141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/platform_candy_002.prefab
+  artifactKey: Guid(376a810c183f3cc4c9fc6ac533a88a0b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/platform_candy_002.prefab using Guid(376a810c183f3cc4c9fc6ac533a88a0b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '44b0f7f7be81ce663a563878e9f5b615') in 0.017903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/platform_candy_004.prefab
+  artifactKey: Guid(eeeb99af576574946985394c6473105a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/platform_candy_004.prefab using Guid(eeeb99af576574946985394c6473105a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd2b02fa41a73529e762d4707d23e4e47') in 0.016553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/obstacle_4_003.prefab
+  artifactKey: Guid(fc63a55aa6dbdbc49ba8ea82559ccd23) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/obstacle_4_003.prefab using Guid(fc63a55aa6dbdbc49ba8ea82559ccd23) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '05c84b2564b70f3412000aca5af5a0d7') in 0.023859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/obstacle_3_001_01.prefab
+  artifactKey: Guid(3a301d2bdae976f4f8ac5fa83421b69d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/obstacle_3_001_01.prefab using Guid(3a301d2bdae976f4f8ac5fa83421b69d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a50f2b31a9dfe6d6ce98c848bc5d187d') in 0.018934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Platformer_4_Candy/Shaders/Glass_URP.shader
+  artifactKey: Guid(c7b3186e154625f4f95d11093c131a4c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Shaders/Glass_URP.shader using Guid(c7b3186e154625f4f95d11093c131a4c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1c054c422bf01d4d2159f01915d2e7e5') in 0.029404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/obstacle_3_001.prefab
+  artifactKey: Guid(f6a4953ff54d06a40a3841e86f0ad55a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/obstacle_3_001.prefab using Guid(f6a4953ff54d06a40a3841e86f0ad55a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'df127b4096e667cb13aecbac7ec7c90d') in 0.018794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/water_001.prefab
+  artifactKey: Guid(e51365e77b8aecb4aa891038c9a2419e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/water_001.prefab using Guid(e51365e77b8aecb4aa891038c9a2419e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ffedca1998f488ba221ccf2844d6ed80') in 0.017167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/platform_candy_007.prefab
+  artifactKey: Guid(5beb6e94b21f95044b2abeb3b132d413) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/platform_candy_007.prefab using Guid(5beb6e94b21f95044b2abeb3b132d413) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3a9b349311aefb0e5625d9fb669e5682') in 0.014604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Platformer_4_Candy/Prefabs/obstacle_5_001.prefab
+  artifactKey: Guid(fdd24169d608f034d9c4b163acc7f501) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Prefabs/obstacle_5_001.prefab using Guid(fdd24169d608f034d9c4b163acc7f501) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7e86578551aa93605dbd7ee892a558ed') in 0.015274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Platformer_4_Candy/Scenes/Demonstration.unity
+  artifactKey: Guid(ee569e4e6744ebd478c930f30b6d8fd4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Platformer_4_Candy/Scenes/Demonstration.unity using Guid(ee569e4e6744ebd478c930f30b6d8fd4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Opening scene 'Assets/Platformer_4_Candy/Scenes/Demonstration.unity additively'
+Loaded scene 'Assets/Platformer_4_Candy/Scenes/Demonstration.unity'
+	Deserialize:            110.560 ms
+	Integration:            269.365 ms
+	Integration of assets:  0.018 ms
+	Thread Wait Time:       0.010 ms
+	Total Operation Time:   379.953 ms
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9f06cd830c4a48995fe9ee1186a4a6cc') in 8.211174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.143092 seconds.
+  path: Assets/Settings/Very Low_PipelineAsset.asset
+  artifactKey: Guid(58b607b3cdba0a04ca533578e354c945) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/Very Low_PipelineAsset.asset using Guid(58b607b3cdba0a04ca533578e354c945) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a92bc07777313cbc3ef84197f188f49a') in 0.062646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Platformer_4_Candy/Materials/Glass_Cup.mat
+  artifactKey: Guid(52b219b2f97cd7043b11b659df1d3075) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Platformer_4_Candy/Materials/Glass_Cup.mat using Guid(52b219b2f97cd7043b11b659df1d3075) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f9e1422b9bd1e4a33e1d6230ba507d64') in 0.011703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Platformer_4_Candy/Materials/Color.mat
+  artifactKey: Guid(727de386e8413084eb27a01f85abf6e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Platformer_4_Candy/Materials/Color.mat using Guid(727de386e8413084eb27a01f85abf6e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6e17dbb668653a55c0a1e3918328c315') in 0.012899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Platformer_4_Candy/Materials/Glass.mat
+  artifactKey: Guid(5751611407ec21f42bd5942df32cdeb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Platformer_4_Candy/Materials/Glass.mat using Guid(5751611407ec21f42bd5942df32cdeb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a8d7c350406efa08a1877e96da27e543') in 0.012611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Settings/Low_PipelineAsset.asset
+  artifactKey: Guid(3fe3dca1355262c49af5874206c0aa87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/Low_PipelineAsset.asset using Guid(3fe3dca1355262c49af5874206c0aa87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '94c41e859b01531c4421e2354a141b85') in 0.024280 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
